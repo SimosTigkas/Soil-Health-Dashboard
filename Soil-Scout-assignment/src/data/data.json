@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "soilMoisture": "42",
+        "temperature": "25",
+        "day": "Monday"
+    },
+    {
+        "id": 2,
+        "soilMoisture": "38",
+        "temperature": "27",
+        "day": "Tuesday"
+    },
+    {
+        "id": 3,
+        "soilMoisture": "45",
+        "temperature": "23",
+        "day": "Wednesday"
+    },
+    {
+        "id": 4,
+        "soilMoisture": "50",
+        "temperature": "22",
+        "day": "Thursday"
+    },
+    {
+        "id": 5,
+        "soilMoisture": "48",
+        "temperature": "24",
+        "day": "Friday"
+    },
+    {
+        "id": 6,
+        "soilMoisture": "44",
+        "temperature": "26",
+        "day": "Saturday"
+    },
+    {
+        "id": 7,
+        "soilMoisture": "41",
+        "temperature": "28",
+        "day": "Sunday"
+    }
+]
