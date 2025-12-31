@@ -7,6 +7,7 @@ export const MetricChart = ({ labels, data, datasetLabel}) => {
     const rootStyles = getComputedStyle(document.documentElement);
     const borderColor = rootStyles.getPropertyValue('--color-primary');
     const backgroundColor = rootStyles.getPropertyValue('--color-secondary');
+    const pointColor = rootStyles.getPropertyValue('--point-color');
     const dataObject = {
     labels: labels,
     datasets: [
@@ -14,8 +15,14 @@ export const MetricChart = ({ labels, data, datasetLabel}) => {
         label: datasetLabel,
         data: data,
         tension: 0.4,
+        fill: true,
         borderColor: borderColor,
         backgroundColor: backgroundColor,
+        pointRadius: 3,
+        pointHoverRadius: 6,
+        pointBackgroundColor: pointColor,
+        pointBorderColor: borderColor,
+        hitRadius: 10,
         }
     ]
     }
