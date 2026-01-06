@@ -4,6 +4,11 @@ This project is an interactive dashboard built with React that displays Soil Moi
 
 ---
 
+## Redirect to the project folder
+```bash
+cd Soil-Scout-assignment/
+```   
+
 ## Installation
 
 Open the project folder in your editor.
