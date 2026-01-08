@@ -1,11 +1,11 @@
-# Site Health Dashboard
+# Soil Health Dashboard
 
 This project is an interactive dashboard built with React that displays Soil Moisture and Temperature metrics using a line chart and summary cards.
 
 
 ## Redirect to the project folder
 ```bash
-cd Soil-Scout-assignment/
+cd Soil-Health-Dashboard/
 ```   
 
 ## Installation
