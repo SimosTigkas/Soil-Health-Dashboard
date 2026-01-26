@@ -7,7 +7,7 @@
 
 .metricCard {
     background-color: var(--color-primary);
-    color: white;
+    color: #1a3a23;
     padding: 5px;
     border-radius: 0.5rem;
     flex: 1 1 120px;

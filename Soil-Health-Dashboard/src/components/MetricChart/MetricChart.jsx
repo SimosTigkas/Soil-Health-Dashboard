@@ -8,6 +8,7 @@ export const MetricChart = ({ labels, data, datasetLabel}) => {
     const borderColor = rootStyles.getPropertyValue('--color-primary');
     const backgroundColor = rootStyles.getPropertyValue('--color-secondary');
     const pointColor = rootStyles.getPropertyValue('--point-color');
+    const textColor = rootStyles.getPropertyValue('--color-text').trim(); 
     const dataObject = {
     labels: labels,
     datasets: [
@@ -30,16 +31,16 @@ export const MetricChart = ({ labels, data, datasetLabel}) => {
         responsive: true,
         maintainAspectRatio: false,
         plugins: {
-            legend: { position: "top" },
+            legend: { position: "top", labels: { color: textColor } },
             tooltip: { mode: "index" }
         },
         scales: {
-            y: { beginAtZero: true },
-            x: { display: true }
+            y: { beginAtZero: true, ticks: { color: textColor } },
+            x: { display: true, ticks: { color: textColor } }
         }
     };
     return (
-        <div className={styles.chartContainer} id="metric-chart">
+        <div className={styles.chartContainer} role="img" aria-label={`Line chart showing ${datasetLabel} values over time`} id="metric-chart">
             <Line data={dataObject} options={optionsObject} />
         </div>
     );
