@@ -1,44 +1,58 @@
 [
-    {
-        "id": 1,
-        "Soil Moisture": "72",
-        "Temperature": "25",
-        "day": "Monday"
-    },
-    {
-        "id": 2,
-        "Soil Moisture": "18",
-        "Temperature": "17",
-        "day": "Tuesday"
-    },
-    {
-        "id": 3,
-        "Soil Moisture": "35",
-        "Temperature": "43",
-        "day": "Wednesday"
-    },
-    {
-        "id": 4,
-        "Soil Moisture": "15",
-        "Temperature": "8",
-        "day": "Thursday"
-    },
-    {
-        "id": 5,
-        "Soil Moisture": "48",
-        "Temperature": "34",
-        "day": "Friday"
-    },
-    {
-        "id": 6,
-        "Soil Moisture": "14",
-        "Temperature": "16",
-        "day": "Saturday"
-    },
-    {
-        "id": 7,
-        "Soil Moisture": "61",
-        "Temperature": "28",
-        "day": "Sunday"
+  {
+    "id": 1,
+    "day": "Monday",
+    "metrics": {
+      "soilMoisture": 72,
+      "temperature": 25
     }
+  },
+  {
+    "id": 2,
+    "day": "Tuesday",
+    "metrics": {
+      "soilMoisture": 18,
+      "temperature": 17
+    }
+  },
+  {
+    "id": 3,
+    "day": "Wednesday",
+    "metrics": {
+      "soilMoisture": 35,
+      "temperature": 43
+    }
+  },
+  {
+    "id": 4,
+    "day": "Thursday",
+    "metrics": {
+      "soilMoisture": 15,
+      "temperature": 8
+    }
+  },
+  {
+    "id": 5,
+    "day": "Friday",
+    "metrics": {
+      "soilMoisture": 48,
+      "temperature": 34
+    }
+  },
+  {
+    "id": 6,
+    "day": "Saturday",
+    "metrics": {
+      "soilMoisture": 14,
+      "temperature": 16
+    }
+  },
+  {
+    "id": 7,
+    "day": "Sunday",
+    "metrics": {
+      "soilMoisture": 61,
+      "temperature": 28
+    }
+  }
 ]

@@ -7,7 +7,7 @@
 
 .metricCard {
     background-color: var(--color-primary);
-    color: #1a3a23;
+    color: hsl(137, 38%, 16%);
     padding: 5px;
     border-radius: 0.5rem;
     flex: 1 1 120px;
@@ -15,6 +15,22 @@
     max-width: 200px;
     text-align: center;
     flex-wrap: wrap;
+}
+
+.skeletonCard {
+    height: 50px;
+    min-width: 100px;
+    max-width: 200px;
+    border-radius: 0.5rem;
+    background: linear-gradient(90deg, hsl(157, 37%, 73%) 25%, hsl(150, 50%, 77%) 37%, hsl(157, 37%, 73%) 63%);
+    background-size: 400% 100%;
+    animation: skeleton-loading 1s ease infinite;
+    flex: 1 1 120px;
+}
+
+@keyframes skeleton-loading {
+  0% { background-position: 100% 0; }
+  100% { background-position: 0 0; }
 }
 
 @media (max-width: 375px) {
