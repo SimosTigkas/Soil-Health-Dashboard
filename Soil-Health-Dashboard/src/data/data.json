@@ -3,56 +3,56 @@
     "id": 1,
     "day": "Monday",
     "metrics": {
-      "soilMoisture": 72,
-      "temperature": 25
+      "Moisture": 72,
+      "Temperature": 25
     }
   },
   {
     "id": 2,
     "day": "Tuesday",
     "metrics": {
-      "soilMoisture": 18,
-      "temperature": 17
+      "Moisture": 18,
+      "Temperature": 17
     }
   },
   {
     "id": 3,
     "day": "Wednesday",
     "metrics": {
-      "soilMoisture": 35,
-      "temperature": 43
+      "Moisture": 35,
+      "Temperature": 43
     }
   },
   {
     "id": 4,
     "day": "Thursday",
     "metrics": {
-      "soilMoisture": 15,
-      "temperature": 8
+      "Moisture": 15,
+      "Temperature": 8
     }
   },
   {
     "id": 5,
     "day": "Friday",
     "metrics": {
-      "soilMoisture": 48,
-      "temperature": 34
+      "Moisture": 48,
+      "Temperature": 34
     }
   },
   {
     "id": 6,
     "day": "Saturday",
     "metrics": {
-      "soilMoisture": 14,
-      "temperature": 16
+      "Moisture": 14,
+      "Temperature": 16
     }
   },
   {
     "id": 7,
     "day": "Sunday",
     "metrics": {
-      "soilMoisture": 61,
-      "temperature": 28
+      "Moisture": 61,
+      "Temperature": 28
     }
   }
 ]

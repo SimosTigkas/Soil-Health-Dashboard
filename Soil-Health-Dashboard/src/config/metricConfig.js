@@ -1,9 +1,9 @@
 export const METRICS = {
-  soilMoisture: {
-    label: "Soil Moisture",
+  Moisture: {
+    label: "Moisture",
     unit: "%"
   },
-  temperature: {
+  Temperature: {
     label: "Temperature",
     unit: "°C"
   }
