@@ -36,10 +36,10 @@ export const SiteHealthDashboard = () => {
             < MetricChart labels={labels} data={metricValues} metricKey={selectedMetric} />
             < MetricCard metricKey={selectedMetric} currentValue={currentValue} min={minValue} max={maxValue} isLoading={isLoading}/>
             <div className={styles.toggleContainer} role="group" aria-label="Metric toggle">
-                <button className={selectedMetric === "Moisture" ? styles.active : ""} aria-pressed={selectedMetric === "Moisture"} aria-label="Show Moisture chart" onClick={() => setSelectedMetric("Moisture")}>
+                <button className={selectedMetric === "Moisture" ? styles.active : ""} aria-pressed={selectedMetric === "Moisture"} aria-label="Show Moisture chart" data-testid= "metric-toggle-moisture" onClick={() => setSelectedMetric("Moisture")}>
                     Moisture
                 </button>
-                <button className={selectedMetric === "Temperature" ? styles.active : ""} aria-pressed={selectedMetric === "Temperature"} aria-label="Show Temperature chart" onClick={() => setSelectedMetric("Temperature")}>
+                <button className={selectedMetric === "Temperature" ? styles.active : ""} aria-pressed={selectedMetric === "Temperature"} aria-label="Show Temperature chart" data-testid= "metric-toggle-temperature" onClick={() => setSelectedMetric("Temperature")}>
                     Temperature
                 </button>
             </div>

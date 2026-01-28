@@ -30,15 +30,15 @@ export const MetricCard = ({ metricKey, currentValue, min, max, isLoading }) => 
     <section className={styles.metricsContainer} aria-label="Metric summary" role="region">
         <div className={styles.metricCard}>
             <h3 id={`current-${metricKey}`}>Current</h3>
-            <p aria-live="polite" aria-labelledby={`current-${metricKey}`}><CountUp start={0} end={currentValue} duration={1.5} suffix={metric.unit} /></p>
+            <p data-testid="metric-current" aria-live="polite" aria-labelledby={`current-${metricKey}`}><CountUp start={0} end={currentValue} duration={1.5} suffix={metric.unit} /></p>
         </div>
         <div className={styles.metricCard}>
             <h3 id="min-metric">Min</h3>
-            <p aria-live="polite" aria-labelledby="min-metric"><CountUp start={0} end={min} duration={1.5} suffix={metric.unit} /></p>
+            <p data-testid="metric-min"aria-live="polite" aria-labelledby="min-metric"><CountUp start={0} end={min} duration={1.5} suffix={metric.unit} /></p>
         </div>
         <div className={styles.metricCard}>
             <h3 id="max-metric">Max</h3>
-            <p aria-live="polite" aria-labelledby="max-metric"><CountUp start={0} end={max} duration={1.5} suffix={metric.unit} /></p>
+            <p data-testid="metric-max" aria-live="polite" aria-labelledby="max-metric"><CountUp start={0} end={max} duration={1.5} suffix={metric.unit} /></p>
         </div>
     </section>);
 };

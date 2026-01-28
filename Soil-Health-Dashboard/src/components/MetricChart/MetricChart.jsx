@@ -65,7 +65,7 @@ export const MetricChart = ({ labels, data, metricKey}) => {
         }
     };
     return (
-        <div className={styles.chartContainer} role="img" aria-label={`Line chart showing ${metric.label} values over time`} id="metric-chart">
+        <div className={styles.chartContainer} role="img" aria-label={`Line chart showing ${metric.label} values over time`} id="metric-chart" data-testid="metric-chart">
             <Line data={dataObject} options={optionsObject} />
         </div>
     );
