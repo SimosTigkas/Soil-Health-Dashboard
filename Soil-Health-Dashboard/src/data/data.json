@@ -3,7 +3,7 @@
     "id": 1,
     "day": "Monday",
     "metrics": {
-      "Moisture": 72,
+      "Moisture": 75,
       "Temperature": 25
     }
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "day": "Tuesday",
     "metrics": {
-      "Moisture": 18,
+      "Moisture": 25,
       "Temperature": 17
     }
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "day": "Wednesday",
     "metrics": {
-      "Moisture": 35,
+      "Moisture": 48,
       "Temperature": 43
     }
   },
@@ -27,15 +27,15 @@
     "id": 4,
     "day": "Thursday",
     "metrics": {
-      "Moisture": 15,
-      "Temperature": 8
+      "Moisture": 14,
+      "Temperature": 16
     }
   },
   {
     "id": 5,
     "day": "Friday",
     "metrics": {
-      "Moisture": 48,
+      "Moisture": 35,
       "Temperature": 34
     }
   },
@@ -43,8 +43,8 @@
     "id": 6,
     "day": "Saturday",
     "metrics": {
-      "Moisture": 14,
-      "Temperature": 16
+      "Moisture": 16,
+      "Temperature": 8
     }
   },
   {

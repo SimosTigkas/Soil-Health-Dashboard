@@ -1,10 +1,18 @@
 export const METRICS = {
   Moisture: {
     label: "Moisture",
-    unit: "%"
+    unit: "%",
+    threshold: {
+      high: 70,
+      low: 15
+    }
   },
   Temperature: {
     label: "Temperature",
-    unit: "°C"
+    unit: "°C",
+    threshold: {
+      high: 36,
+      low: 10
+    }
   }
 };

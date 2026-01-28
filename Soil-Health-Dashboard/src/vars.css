@@ -3,8 +3,7 @@
 --color-text: #1a3a23;
 --color-primary: hsl(123, 38%, 71%);
 --color-secondary: hsl(178, 41%, 33%);
---color-background: #ade1e5;
---point-color: #e7933f;
+--color-background: hsl(184, 52%, 79%);
 --font-primary: 'Inter', sans-serif;
 --font-secondary: 'Lato', sans-serif;
 }

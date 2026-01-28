@@ -33,7 +33,7 @@ export const SiteHealthDashboard = () => {
     return (
         <section className={styles.dashboardContainer} id="site-health-dashboard" aria-labelledby="dashboard-title">
             <h2 id="dashboard-title">Soil Health Dashboard</h2>
-            < MetricChart labels={labels} data={metricValues} datasetLabel={selectedMetric} />
+            < MetricChart labels={labels} data={metricValues} metricKey={selectedMetric} />
             < MetricCard metricKey={selectedMetric} currentValue={currentValue} min={minValue} max={maxValue} isLoading={isLoading}/>
             <div className={styles.toggleContainer} role="group" aria-label="Metric toggle">
                 <button className={selectedMetric === "Moisture" ? styles.active : ""} aria-pressed={selectedMetric === "Moisture"} aria-label="Show Moisture chart" onClick={() => setSelectedMetric("Moisture")}>
